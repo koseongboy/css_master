@@ -1,0 +1,103 @@
+/* basic settings*/
+
+#a4 {
+    display: flex;
+    flex-direction: column;
+    width: 535px;
+    height: 842px;
+    padding: 0 40px;
+    border: 1px solid;
+}
+hr {
+    size: 5;
+    width: 100%;
+}
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 5px;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+/* head settings*/
+
+#head {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 15%;
+}
+#head h1 {
+    flex-grow: 1;
+    margin-top: auto;
+    font-size: 80px;
+}
+
+#head h3 {
+    margin-top: auto;
+    font-size: 40px;
+}
+
+/* text settings*/
+
+#texts {
+    display: flex;
+    flex-basis: 15%;
+    justify-content: space-between;
+}
+
+#texts #left {
+    flex-grow: 1;
+}
+
+#texts #mid {
+    flex-grow: 5;
+}
+
+/* color settings*/
+
+#colors {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-basis: 70%;
+}
+
+#floor1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#floor2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#floor3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#floor1 .circle {
+    background-color: #c4ffff;
+}
+
+#floor2 .circle {
+    background-color: #424242;
+}
+
+#floor3 .circle {
+    background-color: #00ff29;
+}
