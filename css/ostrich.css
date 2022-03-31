@@ -1,0 +1,69 @@
+/*basic setting*/
+
+div {
+    display: grid;
+    place-content: center center;
+}
+
+#bg {
+    width: 984px;
+    height: 556px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 45px;
+    font-family: Georgia, serif;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, serif;
+}
+
+/*outter boxes*/
+#left-top {
+    background-color: #dae7de;
+}
+#left-top h1 {
+    color: #f44607;
+}
+#right-top {
+    background-color: #008a69;
+}
+#left-bottom {
+    background-color: #f44607;
+}
+#right-bottom {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+/*inner boxes*/
+#inner-left-top {
+    background-color: #f7abc6;
+}
+#inner-left-top h3 {
+    color: #f44607;
+}
+#inner-right-top {
+    background-color: #5f5fa9;
+}
+#inner-left-bottom {
+    background-color: #ffc028;
+}
+#inner-left-bottom h3 {
+    color: #f44607;
+}
+#inner-right-bottom {
+    background-color: #f97373;
+}

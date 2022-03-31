@@ -39,3 +39,11 @@ repeate(number, element): element를 number만큼 반복
 
 grid-row / grid-column: 자식 요소에 입력, startNum / finishNum 으로 구분, start에서 finish까지, (줄 구분은 row 한 칸이 아니라 구분선 한 칸). 뒤에서 부터도 가능(음수)  
 span num: num만큼의 칸을 가진다.
+
+justify-items: grid 칸 내에서 정렬 (horizontal) default: stretch  
+align-items: grid 칸 내에서 정렬 (vertical) default: stretch  
+위 둘 합쳐서 place-items: y x
+
+### 크기 관련
+
+1fr: 전체 크기에서 사용 가능한 부분 -> 1fr 1fr 1fr 1fr이면 4등분
