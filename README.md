@@ -44,6 +44,10 @@ justify-items: grid 칸 내에서 정렬 (horizontal) default: stretch
 align-items: grid 칸 내에서 정렬 (vertical) default: stretch  
 위 둘 합쳐서 place-items: y x
 
+justify-content: grid 자체 (horizontal)  
+align-content: grid 자체 (vertical)  
+위 둘 합쳐서 place-content: y x
+
 ### 크기 관련
 
 1fr: 전체 크기에서 사용 가능한 부분 -> 1fr 1fr 1fr 1fr이면 4등분
